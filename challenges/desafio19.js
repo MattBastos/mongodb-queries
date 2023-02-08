@@ -5,5 +5,5 @@ db.produtos.updateMany(
 
 db.produtos.find(
   {},
-  {_id: false, nome: true, ingredientes: true},
+  { _id: false, nome: true, ingredientes: true },
 );
