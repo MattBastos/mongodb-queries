@@ -3,5 +3,5 @@ showing only the "name" and "quantity" of snacks sold. */
 
 db.produtos.find(
   {},
-  { _id: 0, nome: true, vendidos: true }).sort({ vendidos: 1 },
-);
+  { _id: 0, nome: true, vendidos: true },
+).sort({ vendidos: 1 });
