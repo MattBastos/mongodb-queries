@@ -1,3 +1,6 @@
+/* Returns product "name", "likes", and how many items sold
+for products other than "Big Mac" and "McChicken". */
+
 db.produtos.find(
   {
     $and: [
