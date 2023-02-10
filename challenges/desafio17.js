@@ -10,7 +10,7 @@ db.resumoProdutos.insertOne(
 );
 
 /* Returns the "franquia" and "totalProdutos"
-of the "resumoProdutos" collection*/
+of the "resumoProdutos" collection. */
 
 db.resumoProdutos.find(
   {},
