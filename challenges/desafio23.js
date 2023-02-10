@@ -1,3 +1,6 @@
+/* Inserts the "combo" and "tasty" values into the "tags" list
+of all sandwiches and sorts the values in ascending order. */
+
 db.produtos.updateMany(
   {},
   { $push: {
@@ -8,6 +11,8 @@ db.produtos.updateMany(
     },
   },
 );
+
+// Returns products "name" and "tags".
 
 db.produtos.find(
   {},

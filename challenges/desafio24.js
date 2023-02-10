@@ -1,3 +1,6 @@
+/* Sorts in all documents the values of the "valoresNutricionais"
+list by the "percentage" field in descending order. */
+
 db.produtos.updateMany(
   {},
   { $push: {
@@ -8,6 +11,8 @@ db.produtos.updateMany(
     },
   },
 );
+
+// Returns products "name" and "nutricionalValues".
 
 db.produtos.find(
   {},
