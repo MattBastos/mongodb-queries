@@ -54,11 +54,6 @@ Install dependencies:
 
 If you don't want to use docker, just install the dependencies with **npm install**.
 
-Start the Project:
-
-```bash
-  npm start
-```
 ## Autores
 
 - [@MattBastos](https://www.github.com/MattBastos)
