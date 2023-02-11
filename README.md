@@ -1,13 +1,69 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# MongoDB Queries
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+In this project, I worked with the "Commerce" database, which contains data from the McDonald's menu, such as ingredients, nutritional values and fictitious sales data.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+All queries are separated into files called desafioN(challengeN) in the challenges directory.
+
+## Stacks and Tools
+
+- Node
+- JavaScript
+- MongoDB
+- Docker
+- VsCode
+- Git & Github
+- Linux - Ubuntu
+
+## Running Locally
+
+Clone the project:
+
+```bash
+  git clone git@github.com:MattBastos/mongodb-queries.git
+```
+
+Enter the project directory:
+
+```bash
+  cd mongodb-queries
+```
+
+## Using Docker
+
+Run the node service with the command:
+
+```bash
+  docker run -d --name=mongodbQueriesContainer -v "$PWD:/app" -p 27017:27017 mongo:5.0
+```
+
+This command will create a container with a volume pointing to the project folder.
+
+Use the command:
+
+```bash
+  docker exec -it mongodbQueriesContainer bash
+```
+
+It will give you access to the interactive terminal of the container created, which is running in the background.
+
+Install dependencies:
+
+```bash
+  npm install
+```
+
+If you don't want to use docker, just install the dependencies with **npm install**.
+
+Start the Project:
+
+```bash
+  npm start
+```
+## Autores
+
+- [@MattBastos](https://www.github.com/MattBastos)
+
+
+## Referência
+
+ - [Trybe](https://www.betrybe.com/)
